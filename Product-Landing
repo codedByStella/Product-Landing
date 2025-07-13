@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Landing Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header id="header">
+<img id="header-img" loading="lazy" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Our company logo!">
+<nav id="nav-bar">
+  <a class="nav-link" href="#demo">Demo</a>
+  <a class="nav-link" href="#features">Features</a>
+  <a class="nav-link" href="#pricing">Pricing</a>
+  <a class="nav-link" href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<section id="demo" class="centered-section">
+  <h2>Watch the Trombone X in Action</h2>
+  <video id="video" src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+</section>
+
+<section id="features">
+  <h2>Features</h2>
+    <ul>
+      <li><strong>Responsive Design:</strong> Looks great on any device!</li>
+      <li><strong>Lightweight Build:</strong> Easy to carry, powerful to play!</li>
+      <li><strong>Custom Tuning</strong> Fine-tuned adjustments for pro-level precision!</li>
+    <ul>
+</section>
+
+<section id="pricing">
+  <h2>Pricing</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <h3>Starter</h3>
+      <p class="price">$199</p>
+      <ul>
+        <li>Standard Build</li>
+        <li>Protective Case</li>
+        <li>1-year warranty</li>
+      </ul>
+    </div>
+    <div class="pricing-card">
+      <h3>Elite</h3>
+      <p class="price">$599</p>
+      <ul>
+        <li>Hand-crafted design</li>
+        <li>Full accessories bundle</li>
+        <li>Lifetime Warranty</li>
+        </ul>
+      </div>
+    </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <h2>Stay in the loop!</h2>
+  <p>Sign up for our product drops, performance tips and more!</p>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input id="email" name="email" type="email" placeholder="Enter your email" required>
+  <input id="submit" type="submit" value="Sign-Up">
+</form>
+</section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Brasscraft Co. all rights reserved.</p>
+</footer>
+
+</body>
+</html>
